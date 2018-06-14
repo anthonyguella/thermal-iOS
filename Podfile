@@ -6,5 +6,7 @@ target 'thermal' do
   use_frameworks!
 
   # Pods for thermal
-
+  pod 'Firebase/Core'
+  pod 'SkyFloatingLabelTextField'
+  pod 'Socket.IO-Client-Swift'
 end
