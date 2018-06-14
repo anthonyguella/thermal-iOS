@@ -8,5 +8,5 @@ target 'thermal' do
   # Pods for thermal
   pod 'Firebase/Core'
   pod 'SkyFloatingLabelTextField'
-  pod 'Socket.IO-Client-Swift'
+  pod 'Socket.IO-Client-Swift', '~> 13.2.0'
 end
