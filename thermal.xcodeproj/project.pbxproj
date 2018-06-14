@@ -11,6 +11,9 @@
 		9F4187F120D2C3B200FA26BC /* FirebaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4187F020D2C3B200FA26BC /* FirebaseNetwork.swift */; };
 		9F4187F320D2C3CC00FA26BC /* SocketIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4187F220D2C3CC00FA26BC /* SocketIO.swift */; };
 		9F4187FC20D2EEFC00FA26BC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4187FB20D2EEFC00FA26BC /* LoginView.swift */; };
+		9F41880120D3012300FA26BC /* FiraMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F4187FE20D3012300FA26BC /* FiraMono-Bold.ttf */; };
+		9F41880220D3012300FA26BC /* FiraMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F4187FF20D3012300FA26BC /* FiraMono-Medium.ttf */; };
+		9F41880320D3012300FA26BC /* FiraMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F41880020D3012300FA26BC /* FiraMono-Regular.ttf */; };
 		9FED77C320D2B82800629B9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FED77C220D2B82800629B9B /* AppDelegate.swift */; };
 		9FED77C520D2B82800629B9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FED77C420D2B82800629B9B /* ViewController.swift */; };
 		9FED77C820D2B82800629B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FED77C620D2B82800629B9B /* Main.storyboard */; };
@@ -25,6 +28,9 @@
 		9F4187F220D2C3CC00FA26BC /* SocketIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIO.swift; sourceTree = "<group>"; };
 		9F4187F420D2C5C900FA26BC /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4187FB20D2EEFC00FA26BC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9F4187FE20D3012300FA26BC /* FiraMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraMono-Bold.ttf"; sourceTree = "<group>"; };
+		9F4187FF20D3012300FA26BC /* FiraMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraMono-Medium.ttf"; sourceTree = "<group>"; };
+		9F41880020D3012300FA26BC /* FiraMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraMono-Regular.ttf"; sourceTree = "<group>"; };
 		9FED77BF20D2B82800629B9B /* thermal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thermal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FED77C220D2B82800629B9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FED77C420D2B82800629B9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +78,16 @@
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
+		9F4187FD20D3010B00FA26BC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9F4187FE20D3012300FA26BC /* FiraMono-Bold.ttf */,
+				9F4187FF20D3012300FA26BC /* FiraMono-Medium.ttf */,
+				9F41880020D3012300FA26BC /* FiraMono-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		9FED77B620D2B82800629B9B = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +118,7 @@
 				9FED77CE20D2B82900629B9B /* Info.plist */,
 				9F4187F020D2C3B200FA26BC /* FirebaseNetwork.swift */,
 				9F4187F220D2C3CC00FA26BC /* SocketIO.swift */,
+				9F4187FD20D3010B00FA26BC /* Fonts */,
 			);
 			path = thermal;
 			sourceTree = "<group>";
@@ -175,8 +192,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F41880220D3012300FA26BC /* FiraMono-Medium.ttf in Resources */,
 				9FED77CD20D2B82900629B9B /* LaunchScreen.storyboard in Resources */,
+				9F41880320D3012300FA26BC /* FiraMono-Regular.ttf in Resources */,
 				9FED77CA20D2B82900629B9B /* Assets.xcassets in Resources */,
+				9F41880120D3012300FA26BC /* FiraMono-Bold.ttf in Resources */,
 				9FED77C820D2B82800629B9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

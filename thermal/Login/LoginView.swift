@@ -26,11 +26,17 @@ class LoginView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        setupConstraints()
+        setup()
     }
     
-    func setupConstraints() {
+    func setup() {
+        setupLogo()
         
     }
     
+    func setupLogo() {
+        let string = NSMutableAttributedString(string: "THERMAL.")
+        string.addAttribute(NSAttributedStringKey.kern, value: 5.0, range: NSRange(location: 0, length: string.length - 1))
+        logo.attributedText = string
+    }
 }
