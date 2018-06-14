@@ -10,14 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var thermalLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setup()
+        let url = URL(string: "thermal-7cd16.firebaseapp.com")
+        _ = SocketIONetwork(url: url!)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    }
+    
+    func setup() {
+        let string = NSMutableAttributedString(string: "THERMAL.")
+        string.addAttribute(NSAttributedStringKey.kern, value: 5.0, range: NSRange(location: 0, length: string.length - 1))
+        thermalLabel.attributedText = string
     }
 
 
